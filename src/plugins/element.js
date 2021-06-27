@@ -10,10 +10,13 @@ import {Button,Form,FormItem,Input,Message,
         Menu,Submenu,MenuItem,
   Breadcrumb,BreadcrumbItem,
   Card,Select,Col,Row,Table, TableColumn,Switch,
-  Tooltip,Pagination,Dialog,MessageBox
+  Tooltip,Pagination,Dialog,MessageBox,Tag,Tree,Option
 } from 'element-ui'
 
 Vue.use(Button)
+Vue.use(Option)
+Vue.use(Tree)
+Vue.use(Tag)
 Vue.use(Dialog)
 Vue.use(Pagination)
 Vue.use(Tooltip)
